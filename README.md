@@ -32,15 +32,15 @@ Code need three parameter:
 	("delhi", false, callback function)
 	([22,77],true, callback function)
 1.
-# if provide location is query then it should be in double quotes;
-# Second parameter should be false;
-# Third is callback function which is to be handled as per need;
+if provide location is query then it should be in double quotes;
+Second parameter should be false;
+Third is callback function which is to be handled as per need;
 
 2.
-# if provide location is co-ordinates then it should be in array;
-# Second parameter should be true;
-# Third is callback function which is to be handled as per need;
+if provide location is co-ordinates then it should be in array;
+Second parameter should be true;
+Third is callback function which is to be handled as per need;
 
 
-# (process.env.BING_MAPS_API_KEY) 
-# this is only need if we are handling environmental variable;
+> (process.env.BING_MAPS_API_KEY) 
+this is only need if we are handling environmental variable;
